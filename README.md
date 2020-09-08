@@ -1,4 +1,4 @@
-<img src="banner.png" width=500 align=center>
+<img src="images/banner.png" width=500 align=center>
 
 
 # Discourse Theme
