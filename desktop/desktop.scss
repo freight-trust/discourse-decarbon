@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;600&display=swap');
+
+
+.topic-list > tbody > tr:nth-child(odd) {
+	background-color: white;
+}
+
+
+.topic-list > tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
+	border-bottom: 1px solid #eee;
+}
+
+.topic-list a.title:not(.badge-notification) {
+	color: #0353e9;
+	font-weight: normal;
+	font-family: 'Helvetica Neue', Helvetica, Arial, Utkal, sans-serif;
+	font-size: 18px;
+}
+
+.topic-list a.title:not(.badge-notification):hover {
+	text-decoration: underline;
+}
+
+.topic-list .creator, .topic-list .editor {
+	font-size: 13px;
+	display: block;
+	margin-top: 3px;
+}
+
+.topic-list .main-link {
+	width: auto;
+}
+
+.topic-list {
+	td, .creator a, .editor a {
+			color: #8d8d8d;
+	}
+}
+
+.topic-list td {
+	padding-bottom: 10px;
+}
+
+.topic-list th {
+	color: black;
+	background-color: #fafafa;
+}
+.topic-list {
+	border-top: none;
+}
+
+.topic-list td:first-of-type {
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.topic-list tr.topic-list-item-separator td:first-of-type {
+	padding: 0;
+}
+
+
+.topic-list {
+	.fa-tag {
+			opacity: 0.7;
+			font-size: 10px;
+			margin-right: -2px;
+	}
+	.num.posts-map {
+			position: relative;
+			font-size: 17px;
+			a {
+					color: #6f6f6f !important;
+					font-weight: normal;
+			}
+			a.heatmap-high {
+					color: #da1e28 !important;   
+			}
+			width: 100px;
+	}
+}
+
+.topic-list td.last-post, .topic-list th.activity {
+	width: 160px;
+	.relative-date {
+			color: #a8a8a8;
+	}
+}
+
+.topic-list .creator .relative-date {
+	margin-left: 8px;
+}
+
+.badge-category-bg {
+	opacity: 0.8;
+}
+
+.topic-list .badge-wrapper.bar {
+	.badge-category {
+		color: #9a9a9a !important;
+		font-weight: 600;
+		font-size: 12px;
+		padding: 2px 6px;
+	}
+	.badge-category-bg {
+			top: -1px;
+	}
+}
+
+.last-post {
+	.poster-avatar {
+			margin-right: 10px;
+	}
+	.poster-avatar, .poster-info {
+			float: left;
+	}
+}
+
+.topic-list .posts {
+	width: auto;
+}
+
+/* topic page */
+#topic-progress {
+	background-color: #f1f1f1;
+	color: #666;
+	font-weight: normal;
+	.bg {
+		 background-color: #bee9e9;
+	}
+}
+
+nav.post-controls button.has-like {
+	color: #78a9ff;
+}
+
+.badge-wrapper.bullet span.badge-category {
+	color: #161616 !important;
+}
+
+.creator .badge-wrapper.bullet span.badge-category {
+	color: #6f6f6f !important;
+	margin-top: -2px;
+}
+
+img.avatar {
+	border-radius: 3px;
+}
+
+#suggested-topics td.main-link {
+	width: 500px;
+}
+
+.topic-list a.title.visited:not(.badge-notification) {
+	color: #8a3ffc;
+}
+
+
+.topic-list-item .discourse-tags {
+	font-size: 0.75em;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+body {
+.topic-list-item.visited a.badge-wrapper, 
+.latest-topic-list-item.visited a.badge-wrapper, 
+.category-topic-link.visited a.badge-wrapper {
+	opacity: 1;
+}
+
+}
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url('../fonts/IBMPlexSans-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: url('../fonts/IBMPlexMono-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'IBM Plex Sans Light';
+  src: url('../fonts/IBMPlexSans-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
