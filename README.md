@@ -1,10 +1,15 @@
 # Discourse Theme
 
-<img src="branding/logo.png" width=26 align=right>
+<img src="branding/logo.png" width=56 align=left>
 
 ## Overview
 
 Decarbon is based off [freighttrust.com](https://freighttrust.com)
+
+## Plugins
+
+[linkedin](https://github.com/discourse/discourse-plugin-linkedin-auth)
+
 
 ### Fonts
 
