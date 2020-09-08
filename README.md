@@ -1,6 +1,8 @@
+<img src="banner.png" width=500 align=center>
+
+
 # Discourse Theme
 
-<img src="color_guide.png" width=600 align=center>
 
 ## Overview
 
